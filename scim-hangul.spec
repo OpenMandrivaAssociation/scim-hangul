@@ -37,7 +37,6 @@ It supports both Hangul and Hanja input.
 Summary:	Scim-hangul library
 Group:		System/Internationalization
 Provides:	%{libname_orig} = %{version}-%{release}
-Conflicts:	%{name}-skim < 0.3.1-2
 
 %description -n %{libname}
 scim-hangul library.
@@ -46,7 +45,7 @@ scim-hangul library.
 Summary:	Skim setup plugin for scim-hangul
 Group:		System/Internationalization
 Requires:	%{name} = %{version} 
-Requires:       skim >= %{skim_version}
+Requires:	skim >= %{skim_version}
 Conflicts:	%{libname} < 0.3.1-2
 
 %description skim
