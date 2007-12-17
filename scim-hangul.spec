@@ -17,7 +17,6 @@ License:	GPL
 URL:		http://sourceforge.net/projects/scim/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		scim-hangul-fix-build.diff
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:		%{libname} = %{version}-%{release}
 Requires:		scim >= %{scim_version}
 BuildRequires:		scim-devel >= %{scim_version}
