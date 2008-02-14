@@ -10,6 +10,7 @@ Summary:	Scim-hangul is a Hangul IMEngine for SCIM
 Version:	%{version}
 Release:	%{release}
 Group:		System/Internationalization
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPLv2+
 URL:		http://sourceforge.net/projects/scim/
 Source:		http://dfn.dl.sourceforge.net/sourceforge/scim/%name-%version.tar.gz
