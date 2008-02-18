@@ -6,7 +6,7 @@
 %define libhangul_version  0.0.4
 
 Name:		scim-hangul
-Summary:	Scim-hangul is a Hangul IMEngine for SCIM
+Summary:	Hangul IMEngine for SCIM
 Version:	%{version}
 Release:	%{release}
 Group:		System/Internationalization
