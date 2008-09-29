@@ -14,6 +14,7 @@ License:	GPLv2+
 URL:		http://sourceforge.net/projects/scim/
 Source:		http://dfn.dl.sourceforge.net/sourceforge/scim/%name-%version.tar.gz
 Patch0:		scim-hangul-fix-build.diff
+Patch1:		scim-hangul-0.3.2-gcc43.patch
 Requires:		scim-client = %{scim_api}
 BuildRequires:		scim-devel >= %{scim_version}
 BuildRequires:		libhangul-devel >= %{libhangul_version}
@@ -29,6 +30,7 @@ It supports both Hangul and Hanja input.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p0
 
 %build
 %configure2_5x --disable-static --disable-rpath
