@@ -1,5 +1,5 @@
 %define version	0.3.2
-%define release	%mkrel 5
+%define release	%mkrel 6
 
 %define scim_version       1.4.5
 %define libhangul_version  0.0.4
