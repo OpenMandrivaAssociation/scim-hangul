@@ -1,0 +1,14 @@
+diff -urP scim-hangul-0.3.0/skim/setupui/scim_hangul_ui.ui scim-hangul-0.3.0.new/skim/setupui/scim_hangul_ui.ui
+--- scim-hangul-0.3.0/skim/setupui/scim_hangul_ui.ui	2006-10-28 00:44:08.000000000 +0900
++++ scim-hangul-0.3.0.new/skim/setupui/scim_hangul_ui.ui	2006-11-07 18:17:25.911221000 +0900
+@@ -245,10 +245,7 @@
+ <layoutdefaults spacing="6" margin="11"/>
+ <includehints>
+     <includehint>klineedit.h</includehint>
+-    <includehint>skimeditshortcutbutton.h</includehint>
+-    <includehint>skimeditshortcutbutton.h</includehint>
+     <includehint>klineedit.h</includehint>
+     <includehint>klineedit.h</includehint>
+-    <includehint>skimeditshortcutbutton.h</includehint>
+ </includehints>
+ </UI>
