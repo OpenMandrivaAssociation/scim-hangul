@@ -24,7 +24,7 @@ Scim-hangul is a SCIM IMEngine module for Korean (Hangul) input support.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 
 %build
