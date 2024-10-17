@@ -4,7 +4,7 @@ Version:	0.4.0
 Release:	2
 License:	GPLv3+
 Group:		System/Internationalization
-Url:		http://www.scim-im.org/
+Url:		https://www.scim-im.org/
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.gz
 Patch0:		scim-hangul-0.4.0.gcc47.patch
 BuildRequires:	pkgconfig(libhangul)
