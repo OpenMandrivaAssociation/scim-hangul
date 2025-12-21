@@ -7,6 +7,11 @@ Group:		System/Internationalization
 Url:		https://www.scim-im.org/
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.gz
 Patch0:		scim-hangul-0.4.0.gcc47.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libhangul)
 BuildRequires:	pkgconfig(scim)
 
